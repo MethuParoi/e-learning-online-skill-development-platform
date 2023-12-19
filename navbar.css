@@ -1,0 +1,48 @@
+.navbar {
+}
+
+.sale {
+  background-color: #ff9500;
+  text-align: center;
+  color: white;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.left-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding-right: 0.8rem;
+}
+
+.logo__image {
+  width: 70%;
+}
+
+.menu-left {
+  padding-left: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-left__button {
+  text-decoration: none;
+  padding-right: 0.8rem;
+}
+
+.menu-right {
+  display: flex;
+  text-align: center;
+}
+
+.menu-right__button {
+  text-decoration: none;
+  padding-right: 0.8rem;
+}
