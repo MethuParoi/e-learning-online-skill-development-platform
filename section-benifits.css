@@ -1,0 +1,54 @@
+.section-benifits {
+  margin: 7rem 6.3rem 2rem 6.3rem;
+}
+
+.section-benifits__hp {
+  margin-bottom: 2rem;
+}
+.section-benifits__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-benifits__header--lorem {
+  font-size: 1.6rem;
+  display: inline-block;
+  width: 60%;
+}
+
+.section-benifits__header--button {
+}
+
+/* card section */
+
+.section-benifits__card {
+  margin: 5rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 36.5rem));
+  grid-template-rows: repeat(2, 32rem);
+  grid-auto-rows: 32rem;
+  gap: 1.5rem;
+}
+
+.cell {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+
+.numeric {
+  font-size: 5rem;
+  font-weight: 600;
+  text-align: end;
+  padding: 2rem 3rem 3rem 3rem;
+}
+
+.header-card {
+  font-size: 2.2rem;
+  font-weight: 600;
+  padding: 0 0 3rem 1.5rem;
+}
+
+.txt-card {
+  font-size: 1.54rem;
+  padding: 1rem;
+}

@@ -5,11 +5,15 @@
   background-color: #ff9500;
   text-align: center;
   color: white;
+  font-size: 1.6rem;
+  border-radius: 0.3rem;
+  -bottom: 0.5rem;
 }
 .nav-menu {
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0.7rem 2rem 0.7rem 2rem;
+  border: 0.4rem solid #f2f2f4;
 }
 
 .left-panel {
@@ -19,22 +23,22 @@
 }
 
 .logo {
-  padding-right: 0.8rem;
+  padding-right: 0.4rem;
 }
 
 .logo__image {
-  width: 70%;
+  width: 50%;
 }
 
 .menu-left {
-  padding-left: 0.8rem;
+  padding-left: 0.4rem;
   display: flex;
   justify-content: space-between;
 }
 
 .menu-left__button {
   text-decoration: none;
-  padding-right: 0.8rem;
+  padding-right: 1rem;
 }
 
 .menu-right {
@@ -44,5 +48,8 @@
 
 .menu-right__button {
   text-decoration: none;
-  padding-right: 0.8rem;
+}
+
+.menu-right > div:not(:last-child) {
+  padding-right: 1.6rem;
 }

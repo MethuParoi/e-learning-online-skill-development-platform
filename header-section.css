@@ -1,0 +1,42 @@
+.header-section {
+  margin: 7rem 35rem 1.5rem 35rem;
+  border: 2px solid #f3f3f4;
+  border-radius: 5px;
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightning {
+  display: inline-block;
+}
+
+.lightning-pic {
+  width: 55%;
+}
+
+.header-primary {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.header-primary-yellow {
+  color: #ff9500;
+}
+
+.header-secondary {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.header-tertiary {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 1rem 0 0 5rem;
+}

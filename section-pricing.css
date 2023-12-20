@@ -1,0 +1,91 @@
+.section-pricing {
+  height: 175vh;
+  padding: 5rem 3rem 5rem 4rem;
+  margin: 0 7rem 0 8rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 50rem));
+  grid-template-rows: repeat(2, 87rem);
+  grid-auto-rows: 87rem;
+  gap: 2.5rem;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+}
+
+.pricing-card {
+  background-color: #fcfcfd;
+  border-radius: 1rem;
+  border: 3px solid #f1f1f3;
+  padding-top: 1.5rem;
+}
+
+.card-pricing-btn {
+  padding: 3rem 2rem;
+}
+
+.card-pricing__btn {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #262626;
+  font-weight: 600;
+  border: 2px solid #ffeacc;
+  border-radius: 5px;
+  background-color: #fff9f0;
+  margin-left: 4rem;
+  padding: 1rem 15rem;
+}
+
+.card-pricing__value {
+  text-align: center;
+}
+
+.card-pricing__value--big {
+  font-size: 9rem;
+  font-weight: 600;
+}
+
+.card-pricing__value--small {
+  font-size: 1.6rem;
+}
+
+.card-pricing__box {
+  margin: 2rem;
+  padding: 2rem 2rem 2rem 3rem;
+  border: 3px solid #ededf2;
+  border-radius: 1rem;
+}
+
+.bh {
+  padding: 2rem 0 2rem 0;
+}
+
+.cpbd {
+  padding: 0.8rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  border: 2px solid #ededf2;
+  border-radius: 1rem;
+}
+
+.line {
+  font-size: 1.6rem;
+  padding-left: 1rem;
+}
+
+.card-pricing__box--btn {
+  margin: 3rem 0 0 0;
+  border: 1px solid transparent;
+  font-size: 2rem;
+  padding: 0.6rem 0.6rem 0.6rem 0.6rem;
+  background-color: #ff9500;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.cpbb {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}

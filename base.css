@@ -40,7 +40,7 @@ html {
 body {
   box-sizing: border-box; /*declearing box-sizing */
   font-family: Georgia, "Times New Roman", Times, serif;
-
+  background-color: #f7f7f8;
   /* @include respond(tab-port) {
     padding: 0rem;
   } */
@@ -50,3 +50,10 @@ body {
   background-color: $color-primary-light;
   color: $color-white;
 } */
+
+/* typography */
+
+.font-nav {
+  font-size: 1.7rem !important;
+  color: #262626;
+}

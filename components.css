@@ -1,0 +1,59 @@
+.button-yellow {
+  border: 1px solid transparent;
+  padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+  background-color: #ff9500;
+  color: white;
+  border-radius: 3px;
+}
+
+.button-transparent {
+  border: 1px solid transparent;
+  padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+  background-color: transparent;
+  border-radius: 3px;
+}
+
+.button-transparent:hover {
+  border: 1px solid transparent;
+  padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+  background-color: rgba(75, 72, 72, 0.393);
+  color: white;
+  border-radius: 3px;
+}
+
+.hero-button {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-hero__transparent {
+  margin: 1rem;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: 2rem;
+  padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+  background-color: white;
+  color: #262626;
+}
+
+.btn-hero__transparent:hover {
+  border: 1px solid transparent;
+  padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+  background-color: rgba(75, 72, 72, 0.393);
+  color: white;
+  border-radius: 3px;
+}
+
+.btn-hero__yellow {
+  margin: 1rem;
+  text-decoration: none;
+  border: 1px solid transparent;
+  font-size: 2rem;
+  padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+  background-color: #ff9500;
+  color: white;
+  border-radius: 3px;
+}

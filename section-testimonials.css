@@ -1,0 +1,59 @@
+.section-testimonials {
+  padding: 5rem 11rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 50rem));
+  grid-template-rows: repeat(2, 20rem);
+  grid-auto-rows: 20rem;
+  gap: 2.5rem;
+}
+
+.test__card {
+  padding: 2rem;
+
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+
+.test-card-desc {
+  padding-bottom: 2rem;
+}
+
+.test-card-details {
+  border-top: 3px solid #ededf2;
+  padding: 2rem 0 0 1.2rem;
+}
+
+.test-card-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.test-card-details__name-photo {
+  display: flex;
+  align-items: center;
+}
+
+.photo__file {
+  width: 70%;
+}
+
+.name {
+  font-size: 1.6rem;
+}
+
+.test-card-details__button {
+  background-color: #ededf2;
+  border: 3px solid #c4c4c915;
+}
+.section-testimonials__card--1 {
+}
+
+.section-testimonials__card--2 {
+}
+
+.section-testimonials__card--3 {
+}
+
+.section-testimonials__card--4 {
+}
