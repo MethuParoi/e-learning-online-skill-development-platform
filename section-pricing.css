@@ -1,12 +1,12 @@
 .section-pricing {
-  height: 175vh;
-  padding: 5rem 3rem 5rem 4rem;
+  height: 110vh;
+  padding: 5rem 20rem 0rem 30rem;
   margin: 0 7rem 0 8rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(40rem, 50rem));
+  grid-template-columns: repeat(2, minmax(40rem, 50rem));
   grid-template-rows: repeat(2, 87rem);
   grid-auto-rows: 87rem;
-  gap: 2.5rem;
+  column-gap: 15rem;
   background-color: #ffffff;
   border: 1px solid transparent;
   border-radius: 1rem;
